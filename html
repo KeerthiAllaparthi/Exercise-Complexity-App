@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="book-list"></div>
+    <button id="add-book-btn">Add Book</button>
+    <div id="add-book-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="add-book-form">
+                <label for="title-input">Title:</label>
+                <input type="text" id="title-input" name="title" required>
+                <label for="author-input">Author:</label>
+                <input type="text" id="author-input" name="author" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
